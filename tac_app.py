@@ -73,7 +73,7 @@ eva = [22.2724, 73.1876] #jfk
 kalaghoda = [22.3089, 73.1880] #newark
 zoom_level = 12
 midpoint = (np.average(data["lat"]), np.average(data["lon"]))
-m11 = [23.0273, 71.9926]
+m11 = [22.3173, 73.1667]
 
 with row2_1:
     st.write("**All Vadodara City from %i:00 and %i:00**" % (hour_selected, (hour_selected + 1) % 24))
