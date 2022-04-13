@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import pydeck as pdk
+import geopandas as gpd
+
+#Shapefile addition try
+shapefile = gpd.read_file("Vadodara1.shp")
+print(shapefile)
 
 # SETTING PAGE CONFIG TO WIDE MODE
 st.set_page_config(layout="wide")
