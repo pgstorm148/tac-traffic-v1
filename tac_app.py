@@ -68,7 +68,7 @@ data = data[data[DATE_TIME].dt.hour == hour_selected]
 row2_1, row2_2, row2_3, row2_4 = st.columns((2,1,1,1))
 
 # SETTING THE ZOOM LOCATIONS FOR THE AIRPORTS
-vip_circle= [22.3280, 73.3214]  #laguardia
+vip_circle= [22.327209, 73.213652]  #laguardia
 eva = [22.2724, 73.1876] #jfk
 kalaghoda = [22.3089, 73.1880] #newark
 zoom_level = 12
