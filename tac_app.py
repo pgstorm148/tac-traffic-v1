@@ -4,7 +4,6 @@ import numpy as np
 import altair as alt
 import pydeck as pdk
 #import geopandas as gpd
-pip install pyshp
 import shapefile as sf
 
 
