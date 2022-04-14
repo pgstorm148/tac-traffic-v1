@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import pydeck as pdk
-from link_button import link_button
+
 
 #import geopandas as gpd
 #import shapefile 
@@ -132,4 +132,4 @@ st.altair_chart(alt.Chart(chart_data)
 
 
 
-link_button('Click Here', 'https://docs.streamlit.io/en/stable/')
+
