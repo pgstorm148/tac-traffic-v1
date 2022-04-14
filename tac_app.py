@@ -22,7 +22,7 @@ DATE_TIME = "date/time"
 
 @st.experimental_memo
 def load_data(nrows):
-    data = pd.read_csv("tac111_1.csv.gz", nrows=nrows)
+    data = pd.read_csv("tac111.csv.gz", nrows=nrows)
     lowercase = lambda x: str(x).lower()
     data.rename(lowercase, axis="columns", inplace=True)
     data[DATE_TIME] = pd.to_datetime(data[DATE_TIME])
