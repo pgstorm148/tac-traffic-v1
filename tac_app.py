@@ -4,7 +4,7 @@ import numpy as np
 import altair as alt
 import pydeck as pdk
 #import geopandas as gpd
-import shapefile as sf
+import shapefile 
 
 
 sf = shapefile.Reader("Vadodara1.shp")
