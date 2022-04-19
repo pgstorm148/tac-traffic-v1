@@ -3,13 +3,6 @@ import pandas as pd
 import numpy as np
 import altair as alt
 import pydeck as pdk
-import time
-import requests
-import numpy as np
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
-import plost
-import pandas as pd
 import webbrowser
 
 
