@@ -8,7 +8,7 @@ import webbrowser
 
 #import geopandas as gpd
 #import shapefile 
-
+url = "https://traffic-flow-counter.herokuapp.com"
 
 #sf = shapefile.Reader("Vadodara1.shp")
 
@@ -131,7 +131,7 @@ st.altair_chart(alt.Chart(chart_data)
         color='red'
     ), use_container_width=True)
 
-url = 'https://traffic-flow-counter.herokuapp.com'
+
 
 if st.button('Traffic Congestion Counter'):
 	webbrowser.open_new_tab(url)
